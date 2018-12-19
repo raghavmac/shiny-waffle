@@ -1,0 +1,15 @@
+@import './pages/home';
+
+/* Common Styles */
+* {
+  font-weight: bold;
+}
+
+.layout {
+  height: 100vh;
+  background: #fff !important;
+}
+
+ul.grid {
+  list-style-type: none;
+}

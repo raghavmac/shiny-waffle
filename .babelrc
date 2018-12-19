@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "syntax-dynamic-import",
+    ["import", { "libraryName": "antd" }]
+  ],
+  "env": {
+		"local": {
+			"plugins": ["react-hot-loader/babel"]
+		}
+	}
+}

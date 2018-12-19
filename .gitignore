@@ -1,0 +1,10 @@
+# Directories
+node_modules
+.vscode
+src/server/public/
+
+# Files
+*.log
+*.rdb
+*.env
+.DS_Store
