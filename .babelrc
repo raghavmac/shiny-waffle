@@ -6,12 +6,16 @@
   ],
   "plugins": [
     "transform-runtime",
-    "syntax-dynamic-import",
-    ["import", { "libraryName": "antd" }]
+    "syntax-dynamic-import"
   ],
   "env": {
 		"local": {
 			"plugins": ["react-hot-loader/babel"]
+    },
+    "test": {
+			"plugins": [
+				["istanbul", { "exclude": ["test/unit/**/*.js", "test/unit/**/*.jsx"] }]
+			]
 		}
 	}
 }

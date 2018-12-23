@@ -1,0 +1,7 @@
+--recursive
+--colors
+--reporter spec
+--require jsdom-global/register
+--require babel-register
+--require test/unit/setup.js
+test/unit/client/**/*.{js,jsx}

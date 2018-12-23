@@ -44,7 +44,7 @@ module.exports = {
       containers: resolve('src/client/containers/'),
       helpers: resolve('src/client/helpers/'),
       reducers: resolve('src/client/reducers/'),
-      constant: resolve('src/client/constants/')
+      metadata: resolve('src/client/metadata/')
     }
   },
   module: {
