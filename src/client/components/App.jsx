@@ -1,12 +1,11 @@
 import React from 'react';
-import { Layout } from 'antd';
 
 import 'assets/styles/app.scss';
 
 const App = props => (
-  <Layout>
+  <div className="layout">
     {props.children}
-  </Layout>
+  </div>
 );
 
 export default App;

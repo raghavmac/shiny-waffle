@@ -1,15 +1,19 @@
-@import './pages/home';
+@import './common/input';
+@import './common/select';
+@import './common/button';
+@import './common/card';
 
 /* Common Styles */
-* {
-  font-weight: bold;
-}
-
 .layout {
   height: 100vh;
-  background: #fff !important;
-}
+  padding: 5% 15%;
+  background: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-ul.grid {
-  list-style-type: none;
+  .list {
+    width: 80%;
+    margin: 3% 0.1%;
+    border-radius: .2rem;
+    background-color: #e6e6e6;
+  }
 }
