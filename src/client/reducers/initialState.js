@@ -1,3 +1,8 @@
 module.exports = {
-  skills: { data: [], message: 'Something went wrong!' }
+  skills: {
+    value: '',
+    selection: '',
+    data: [],
+    message: 'Something went wrong!'
+  }
 };

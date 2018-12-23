@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import skillReducer from 'reducers/skillReducer';
+import skillsReducer from 'reducers/skillsReducer';
 
 const rootReducer = combineReducers({
-  skillReducer
+  skillsReducer
 });
 
 export default rootReducer;
