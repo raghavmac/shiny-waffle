@@ -1,10 +1,32 @@
-# Directories
-node_modules
-.vscode
-src/server/public/
+# Library folders
+node_modules/
 
-# Files
+# Logs and Extra Files
 *.log
 *.rdb
-*.env
+src/server/public/
+# Build directories
+dist/
+
+# Coverage
+coverage/
+
+# Reports
+reports/
+
+# Test cache
+.nyc_output/
+
+# Webstorm
+.idea/
+
+# Mac
 .DS_Store
+
+package-lock.json
+yarn.lock
+.vs/PostClosing.PMI.VendorServices/v15/.suo
+.project
+.vs/ProjectSettings.json
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
