@@ -12,10 +12,16 @@ or `yarn` as alternative
 
 ## Run
 
-`npm start` or `yarn start`
+1. `yarn stub`
 
-Go to - `http://localhost:8100`
+2. `yarn start` (open in a new terminal)
+
+3. Go to - `http://localhost:8100`
 
 ## Build
 
-`npm run build` or `yarn build`
+`yarn build`
+
+## Test
+
+`yarn test`
