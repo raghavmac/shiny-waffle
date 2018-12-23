@@ -1,0 +1,21 @@
+button {
+  background: #1c75bc;
+  border-radius: .2rem;
+  color: #fff;
+  font-size: 1rem;
+  padding: .9rem 4rem;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #1967a6;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #e6e6e6;
+  }
+}
